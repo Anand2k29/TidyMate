@@ -9,7 +9,7 @@ No commands to memorise. Nothing is ever deleted.
 
 [![PyPI](https://img.shields.io/pypi/v/tidymate?color=blue)](https://pypi.org/project/tidymate/)
 [![Python](https://img.shields.io/pypi/pyversions/tidymate)](https://pypi.org/project/tidymate/)
-[![Tests](https://github.com/YOUR-GITHUB-USER/tidymate/actions/workflows/tests.yml/badge.svg)](https://github.com/YOUR-GITHUB-USER/tidymate/actions)
+[![Tests](https://github.com/Anand2k29/TidyMate/actions/workflows/tests.yml/badge.svg)](https://github.com/Anand2k29/TidyMate/actions)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 </div>
@@ -102,17 +102,17 @@ Creates a private environment, installs TidyMate and sets up the command. Run it
 
 **Windows (PowerShell)**
 ```powershell
-irm https://raw.githubusercontent.com/YOUR-GITHUB-USER/tidymate/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/Anand2k29/TidyMate/main/install.ps1 | iex
 ```
 
 **macOS / Linux**
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR-GITHUB-USER/tidymate/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/Anand2k29/TidyMate/main/install.sh | sh
 ```
 
 ### 3. No install
 
-[Download the zip](https://github.com/YOUR-GITHUB-USER/tidymate/archive/refs/heads/main.zip),
+[Download the zip](https://github.com/Anand2k29/TidyMate/archive/refs/heads/main.zip),
 unzip, and double-click **`START_HERE.bat`** (Windows) or **`start.command`** (Mac).
 Windows may warn that the publisher couldn't be verified - that's normal for scripts; click **Run**.
 
@@ -289,7 +289,7 @@ Yes. Everything works on Windows, macOS and Linux with Python 3.8 or newer.
 Bug reports, ideas and pull requests are welcome.
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USER/tidymate.git
+git clone https://github.com/Anand2k29/TidyMate.git
 cd tidymate
 pip install -e .
 python -m unittest discover -s tests -v

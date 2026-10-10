@@ -1,14 +1,14 @@
 #!/bin/sh
 # TidyMate - one-line installer for Mac / Linux.
 #
-#   curl -fsSL https://raw.githubusercontent.com/YOUR-GITHUB-USER/tidymate/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/Anand2k29/TidyMate/main/install.sh | sh
 #
 # It creates a private Python environment (so nothing else on your computer is touched),
 # installs the tool in it, and puts two commands - tidymate and start_here - in ~/.local/bin.
 # Re-run it any time to update. Remove it with:  tidymate setup --uninstall && rm -rf ~/.tidymate/venv
 set -eu
 
-REPO="${TIDYMATE_REPO:-YOUR-GITHUB-USER/tidymate}"
+REPO="${TIDYMATE_REPO:-Anand2k29/TidyMate}"
 SPEC="${TIDYMATE_SPEC:-https://github.com/$REPO/archive/refs/heads/main.zip}"   # or a folder path / PyPI name
 ROOT="${TIDYMATE_HOME:-$HOME/.tidymate}"
 VENV="$ROOT/venv"

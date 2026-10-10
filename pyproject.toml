@@ -24,8 +24,8 @@ tidymate = "tidymate.cli:main"
 start_here = "tidymate.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/YOUR-GITHUB-USER/tidymate"
-Issues = "https://github.com/YOUR-GITHUB-USER/tidymate/issues"
+Homepage = "https://github.com/Anand2k29/TidyMate"
+Issues = "https://github.com/Anand2k29/TidyMate/issues"
 
 [tool.setuptools]
 packages = ["tidymate"]

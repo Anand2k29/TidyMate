@@ -1,6 +1,6 @@
 # TidyMate - one-line installer for Windows (PowerShell).
 #
-#   irm https://raw.githubusercontent.com/YOUR-GITHUB-USER/tidymate/main/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/Anand2k29/TidyMate/main/install.ps1 | iex
 #
 # It creates a private Python environment (so nothing else on your computer is touched),
 # installs the tool in it, and creates two commands - tidymate and start_here - that work
@@ -9,7 +9,7 @@
 
 function Install-TidyMate {
     $ErrorActionPreference = "Stop"
-    $Repo = "YOUR-GITHUB-USER/tidymate"
+    $Repo = "Anand2k29/TidyMate"
     $Spec = if ($env:TIDYMATE_SPEC) { $env:TIDYMATE_SPEC } else { "https://github.com/$Repo/archive/refs/heads/main.zip" }
     $Root = Join-Path $env:LOCALAPPDATA "TidyMate"
     $Venv = Join-Path $Root "venv"
