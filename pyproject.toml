@@ -5,16 +5,31 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tidymate"
 version = "1.0.0"
-description = "Tidy, rename, archive, back up and check your files safely - with preview, undo and plain-English explanations."
+description = "Python file organizer: sort your Downloads folder by type, bulk rename, find duplicates, archive old files and undo anything. Safe preview, no dependencies."
 readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
-keywords = ["tidymate", "file organizer", "downloads", "cleanup", "rename", "duplicates", "backup", "undo"]
+authors = [{name = "MrPerfect"}]
+keywords = [
+    "file organizer", "organize files", "downloads folder", "file management",
+    "folder organizer", "bulk rename", "duplicate file finder", "cleanup",
+    "file sorter", "backup", "undo", "cli", "tidymate",
+]
 classifiers = [
-    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
-    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Desktop Environment :: File Managers",
+    "Topic :: System :: Filesystems",
     "Topic :: Utilities",
 ]
 dependencies = []
@@ -25,7 +40,12 @@ start_here = "tidymate.cli:main"
 
 [project.urls]
 Homepage = "https://github.com/Anand2k29/TidyMate"
+Documentation = "https://github.com/Anand2k29/TidyMate#readme"
 Issues = "https://github.com/Anand2k29/TidyMate/issues"
+Changelog = "https://github.com/Anand2k29/TidyMate/releases"
 
-[tool.setuptools]
-packages = ["tidymate"]
+[tool.setuptools.packages.find]
+include = ["tidymate*"]
+
+[tool.setuptools.package-data]
+tidymate = ["*.json"]
